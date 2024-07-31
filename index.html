@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic tac toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Concert+One&family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <h1>
+            My TicTacToe ....Lets play!
+        </h1>
+    </nav>
+    <div class="gamecontainer">
+        <div class="container">
+            <div id="box" class="box bt bl" ><span class="text"></span></div>
+            <div id="box" class="box bt "><span class="text"></span></div>
+            <div id="box" class="box bt br"><span class="text"></span></div>
+            <div id="box" class="box bl"><span class="text"></span></div>
+            <div id="box" class="box"><span class="text"></span></div>
+            <div id="box" class="box br"><span class="text"></span></div>
+            <div id="box" class="box bb bl"><span class="text"></span></div>
+            <div id="box" class="box bb"><span class="text"></span></div>
+            <div id="box" class="box bb br"><span class="text"></span></div>
+        </div>
+        <div class="gameinfo">
+           <div class="instruction">
+            <h1 class="wel">Welcome to Tic Tac Toe..</h1>
+            <span class="info" >Turn for X</span>
+            <button class="reset">Reset</button>
+           </div>
+           <div class="gif">
+            <img src="19y9.gif" width="40%">
+           </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
